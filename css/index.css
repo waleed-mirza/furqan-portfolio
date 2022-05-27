@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Baskerville", serif !important;
+  font-weight: 400 !important;
+  color: #323954;
+  line-height: 2.2 !important;
+}
+.heading {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  color: #323954;
+  line-height: 1.5 !important;
+}
+.button {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.5 !important;
+  background-color: #ea5147;
+  color: #fefffa;
+}
+
+/* Custom Styling */
+
+.toggle-display-on {
+  z-index: 99 !important;
+}
+.toggle-display-off {
+  z-index: -99 !important;
+  opacity: 0;
+}
+.nav-links {
+  position: fixed;
+  height: 86vh;
+  width: 100%;
+  margin-left: -31px;
+  margin-top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 100px;
+}
+.nav-links > * {
+  margin: 20px 0px;
+}
+.open-menu {
+  background-color: aqua !important;
+}
