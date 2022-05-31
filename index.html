@@ -2,41 +2,180 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Work+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Work+Sans:700" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
 
     <title>Furqan</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <section class="navbar w-full px-8 py-5 bg-white z-10 sticky">
-        <div class="flex justify-between items-center ">
-            <div class="heading text-4xl">FURQAN</div>
-            <div class="links hidden">
-                <div class="heading text-2xl">Our Services</div>
-                <div class="heading text-2xl">Case Studies</div>
-                <div class="heading text-2xl">About Us</div>
-                <div class="heading text-2xl">Blog</div>
+    <section class="navbar w-full px-8 py-7 bg-white z-10 sticky">
+        <div class="flex justify-between items-center">
+            <div class="heading text-md lg:text-xl logo">THE SOCIAL WIZARD</div>
+            <div class="links hidden lg:flex lg:justify-around lg:flex-grow lg:mx-8">
+                <div class="heading text-2xl lg:text-lg cursor-pointer">
+                    Our Services
+                </div>
+                <div class="heading text-2xl lg:text-lg cursor-pointer">
+                    Case Studies
+                </div>
+                <div class="heading text-2xl lg:text-lg cursor-pointer">About Us</div>
+                <div class="heading text-2xl lg:text-lg cursor-pointer">Blog</div>
             </div>
-            <div class="hidden">Contact Us</div>
-            <div><i class="fa-solid fa-bars fa-2xl close-menu cursor-pointer"></i>
+            <div
+                class="hidden lg:block button px-10 py-4 text-xl rounded-full cursor-pointer hover:bg-black theme-text-color">
+                Contact Me
+            </div>
+
+            <div class="block lg:hidden">
+                <i class="fa-solid fa-bars fa-2xl close-menu cursor-pointer"></i>
                 <i class="hidden fa-solid fa-xmark fa-2xl open-menu cursor-pointer"></i>
             </div>
         </div>
     </section>
 
+    <!-- main section -->
+    <section class="main-section w-full flex justify-center items-center overflow-hidden">
+        <div class="h-1/2 w-4/5 md:h-9/12 flex justify-around items-center flex-col md:flex-row">
+            <div
+                class="md:w-2/4 order-last flex justify-center items-center flex-col space-y-5 my-6 lg:justify-between lg:items-start lg:space-y-12">
+                <div class="text-3xl md:text-4xl heading text-center lg:text-left">
+                    We're a results-driven Social Media Marketing Agency that grows
+                    brands faster.
+                </div>
+                <div class="button px-10 py-4 text-xs rounded-full cursor-pointer hover:bg-black theme-text-color">Get
+                    Your Free Proposal</div>
+            </div>
+            <div class="h-5/6 md:h-full md:order-last">
+                <img class="w-full h-full" src="images/headerimage.jpeg" alt="picture here">
+            </div>
+        </div>
+    </section>
 
+    <!-- brands section -->
+    <section class="brand-section flex flex-col justify-center items-center px-20 my-10">
+        <div class="heading text-xl my-10">Brands that trust us to drive more revenue</div>
+        <div class="text-xl flex flex-wrap brand-flex justify-center items-center">
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+            <div>Dummy</div>
+        </div>
+    </section>
 
+    <section class="worksamples px-14">
+        <div
+            class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2">
+                <div class="heading text-2xl">Growth focused Social Media content,
+                    managed with care
+                </div>
+                <div class="text-base">
+                    <p>One of the biggest mistakes a brand can make is to ignore their organic presence... or even
+                        worse, ignore their existing audience. That's why a data-led organic strategy is a necessity.
+                    </p>
+                    <p class="my-4">Managing your social media accounts is a timely task, but, you're in luck! Our team
+                        are a
+                        social-media-obsessed bunch. They love nothing more than curating content, engaging with
+                        audiences in-platform and analysing the data.</p>
+                </div>
+                <div class="button px-6 py-4 rounded-full cursor-pointer hover:bg-black theme-text-color">
+                    See our approach
+                </div>
+            </div>
+            <div class="worksamples-img">
+                <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+        <div
+            class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
+            <div class="worksamples-img order-last mt-8 ">
+                <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
+            </div>
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last">
+                <div class="heading text-2xl">Growth focused Social Media content,
+                    managed with care
+                </div>
+                <div class="text-base">
+                    <p>One of the biggest mistakes a brand can make is to ignore their organic presence... or even
+                        worse, ignore their existing audience. That's why a data-led organic strategy is a necessity.
+                    </p>
+                    <p class="my-4">Managing your social media accounts is a timely task, but, you're in luck! Our team
+                        are a
+                        social-media-obsessed bunch. They love nothing more than curating content, engaging with
+                        audiences in-platform and analysing the data.</p>
+                </div>
+                <div class="button px-6 py-4 rounded-full cursor-pointer hover:bg-black theme-text-color">
+                    See our approach
+                </div>
+            </div>
 
+        </div>
+        <div
+            class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2">
+                <div class="heading text-2xl">Growth focused Social Media content,
+                    managed with care
+                </div>
+                <div class="text-base">
+                    <p>One of the biggest mistakes a brand can make is to ignore their organic presence... or even
+                        worse, ignore their existing audience. That's why a data-led organic strategy is a necessity.
+                    </p>
+                    <p class="my-4">Managing your social media accounts is a timely task, but, you're in luck! Our team
+                        are a
+                        social-media-obsessed bunch. They love nothing more than curating content, engaging with
+                        audiences in-platform and analysing the data.</p>
+                </div>
+                <div class="button px-6 py-4 rounded-full cursor-pointer hover:bg-black theme-text-color">
+                    See our approach
+                </div>
+            </div>
+            <div class="worksamples-img">
+                <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+        <div
+            class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
+            <div class="worksamples-img order-last mt-8 ">
+                <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
+            </div>
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last">
+                <div class="heading text-2xl">Growth focused Social Media content,
+                    managed with care
+                </div>
+                <div class="text-base">
+                    <p>One of the biggest mistakes a brand can make is to ignore their organic presence... or even
+                        worse, ignore their existing audience. That's why a data-led organic strategy is a necessity.
+                    </p>
+                    <p class="my-4">Managing your social media accounts is a timely task, but, you're in luck! Our team
+                        are a
+                        social-media-obsessed bunch. They love nothing more than curating content, engaging with
+                        audiences in-platform and analysing the data.</p>
+                </div>
+                <div class="button px-6 py-4 rounded-full cursor-pointer hover:bg-black theme-text-color">
+                    See our approach
+                </div>
+            </div>
 
+        </div>
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

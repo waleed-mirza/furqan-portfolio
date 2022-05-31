@@ -24,9 +24,17 @@ body {
   background-color: #ea5147;
   color: #fefffa;
 }
-
-/* Custom Styling */
-
+.theme-text-color:hover {
+  color: #ea5147;
+}
+/* Navbar ---start */
+.logo {
+  background-image: linear-gradient(45deg, #ea5147, #323954);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .toggle-display-on {
   z-index: 99 !important;
 }
@@ -36,7 +44,7 @@ body {
 }
 .nav-links {
   position: fixed;
-  height: 86vh;
+  height: 92vh;
   width: 100%;
   margin-left: -31px;
   margin-top: -6px;
@@ -51,4 +59,19 @@ body {
 }
 .open-menu {
   background-color: aqua !important;
+}
+/* Navbar ---end */
+
+/* main section ---start */
+.main-section {
+  height: 84vh !important;
+}
+/* main section ---end */
+
+.brand-flex {
+  gap: 50px;
+}
+.worksamples-img {
+  width: 450px;
+  height: 500px;
 }
