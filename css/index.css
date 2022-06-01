@@ -8,6 +8,10 @@ body {
   font-weight: 400 !important;
   color: #323954;
   line-height: 2.2 !important;
+  overflow-x: hidden;
+}
+.b-text {
+  line-height: 2.2 !important;
 }
 .heading {
   font-family: "Libre Baskerville", serif;
@@ -27,6 +31,10 @@ body {
 .theme-text-color:hover {
   color: #ea5147;
 }
+.theme-bg-color {
+  background-color: #ea5147;
+}
+
 /* Navbar ---start */
 .logo {
   background-image: linear-gradient(45deg, #ea5147, #323954);
@@ -47,7 +55,7 @@ body {
   height: 92vh;
   width: 100%;
   margin-left: -31px;
-  margin-top: -6px;
+  margin-top: -10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,3 +83,27 @@ body {
   width: 450px;
   height: 500px;
 }
+/* our things section */
+.our-things-section {
+  position: relative;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+/* transition ---start */
+
+.transition-left,
+.transition-right {
+  transition: all 1s ease-in-out;
+}
+.transition-left {
+  transform: translateX(-600px);
+}
+.transition-right {
+  transform: translateX(600px);
+}
+
+.translate-transition {
+  transform: translateX(0);
+}
+/* transition ---end */
