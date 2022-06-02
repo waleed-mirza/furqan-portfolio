@@ -8,6 +8,7 @@ body {
   font-weight: 400 !important;
   color: #323954;
   line-height: 2.2 !important;
+  width: 100vw !important;
   overflow-x: hidden;
 }
 .b-text {
@@ -32,9 +33,14 @@ body {
   color: #ea5147;
 }
 .theme-bg-color {
-  background-color: #ea5147;
+  background-color: #f7bfbb;
 }
-
+.theme-bg-color2 {
+  background-color: #323954;
+}
+.theme-text-color2 {
+  color: #f7bfbb;
+}
 /* Navbar ---start */
 .logo {
   background-image: linear-gradient(45deg, #ea5147, #323954);
