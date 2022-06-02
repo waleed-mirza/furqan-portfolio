@@ -6,7 +6,7 @@
 body {
   font-family: "Libre Baskerville", serif !important;
   font-weight: 400 !important;
-  color: #323954;
+  color: #000;
   line-height: 2.2 !important;
   width: 100vw !important;
   overflow-x: hidden;
@@ -17,7 +17,7 @@ body {
 .heading {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  color: #323954;
+  color: #000000;
   line-height: 1.5 !important;
 }
 .button {
@@ -26,24 +26,24 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5 !important;
-  background-color: #ea5147;
-  color: #fefffa;
+  background-color: #65e2ca;
+  color: #000000;
 }
 .theme-text-color:hover {
-  color: #ea5147;
+  color: #ef7971;
 }
 .theme-bg-color {
-  background-color: #f7bfbb;
+  background-color: #65e2ca;
 }
 .theme-bg-color2 {
-  background-color: #323954;
+  background-color: #65e2ca;
 }
 .theme-text-color2 {
-  color: #f7bfbb;
+  color: #000000;
 }
 /* Navbar ---start */
 .logo {
-  background-image: linear-gradient(45deg, #ea5147, #323954);
+  background-image: linear-gradient(45deg, #65e2ca, #000000);
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
