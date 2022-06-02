@@ -89,6 +89,12 @@ body {
   width: 450px;
   height: 500px;
 }
+@media screen and (max-width: 550px) {
+  .worksamples-img {
+    width: 350px;
+    height: 500px;
+  }
+}
 /* our things section */
 .our-things-section {
   position: relative;
