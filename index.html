@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="css/index.css" />
 
     <title>Furqan</title>
@@ -17,7 +19,7 @@
 
 <body>
     <!-- navbar -->
-    <section class="navbar w-full px-8 py-7 bg-white z-10 sticky">
+    <section class="navbar w-full px-8 py-7 bg-white z-10 fixed bg-white">
         <div class="flex justify-between items-center">
             <div class="heading text-md lg:text-xl logo">THE SOCIAL WIZARD</div>
             <div class="links hidden lg:flex lg:justify-around lg:flex-grow lg:mx-8">
@@ -51,7 +53,9 @@
                     We're a results-driven Social Media Marketing Agency that grows
                     brands faster.
                 </div>
-                <div class="button px-10 py-4 text-xs rounded-full cursor-pointer hover:bg-black theme-text-color">Get
+                <div
+                    class="button px-10 py-4 text-xs rounded-full cursor-pointer hover:bg-black theme-text-color animate__animated animate__fadeInDownBig">
+                    Get
                     Your Free Proposal</div>
             </div>
             <div class="h-5/6 md:h-full md:order-last">
@@ -62,7 +66,8 @@
 
     <!-- brands section -->
     <section class="brand-section flex flex-col justify-center items-center px-20 py-20">
-        <div class="heading text-xl md:text-3xl lg:text-4xl xl:text-5xl my-10">Brands that trust us to drive more
+        <div class="heading text-xl md:text-3xl lg:text-4xl xl:text-5xl my-10 transition-left">
+            Brands that trust us to drive more
             revenue</div>
         <div class="text-xl lg:text-3xl xl:text-5xl flex flex-wrap brand-flex justify-center items-center mt-16">
             <div>Dummy</div>
@@ -84,7 +89,7 @@
     <section class="worksamples px-14 md:px-18 lg:px-28 xl:px-40">
         <div
             class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
-            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 ">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 fade-in">
                 <div class="heading text-2xl lg:text-3xl xl:text-4xl">Growth focused Social Media content,
                     managed with care
                 </div>
@@ -101,16 +106,16 @@
                     See our approach
                 </div>
             </div>
-            <div class="worksamples-img ">
+            <div class="worksamples-img fade-in">
                 <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
             </div>
         </div>
         <div
             class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
-            <div class="worksamples-img order-last mt-8 ">
+            <div class="worksamples-img order-last mt-8 fade-in">
                 <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
             </div>
-            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last ">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last fade-in">
                 <div class="heading text-2xl lg:text-3xl xl:text-4xl">Growth focused Social Media content,
                     managed with care
                 </div>
@@ -131,7 +136,7 @@
         </div>
         <div
             class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
-            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 ">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 fade-in">
                 <div class="heading text-2xl lg:text-3xl xl:text-4xl">Growth focused Social Media content,
                     managed with care
                 </div>
@@ -148,16 +153,16 @@
                     See our approach
                 </div>
             </div>
-            <div class="worksamples-img ">
+            <div class="worksamples-img fade-in">
                 <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
             </div>
         </div>
         <div
             class="my-20 flex justify-between items-start md:items-center space-y-8 flex-col md:flex-row md:space-x-10">
-            <div class="worksamples-img order-last mt-8 ">
+            <div class="worksamples-img order-last mt-8 fade-in">
                 <img src="images/headerimage.jpeg" alt="picture here" class="w-full h-auto rounded-lg">
             </div>
-            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last ">
+            <div class="flex flex-col justify-between items-start space-y-6 md:w-1/2 md:order-last fade-in">
                 <div class="heading text-2xl lg:text-3xl xl:text-4xl">Growth focused Social Media content,
                     managed with care
                 </div>
@@ -181,9 +186,10 @@
 
     <!-- some things about us -->
     <section class="our-things-section px-14 md:px-18 lg:px-28 xl:px-36 py-10">
-        <div class="heading text-3xl xl:text-5xl my-10 text-center">What makes us different to other Social Media
+        <div class="heading text-3xl xl:text-5xl my-10 text-center transition-right">What makes us different to other
+            Social Media
             Agencies...</div>
-        <div class="w-full flex flex-wrap justify-around space-x-1">
+        <div class="w-full flex flex-wrap justify-around space-x-1 fade-in">
             <div
                 class="flex flex-col justify-between items-start space-y-4 md:space-y-6 lg:space-y-10 theme-bg-color px-8 py-8 rounded-lg my-10 md:w-2/5 xl:w-1/4">
                 <div>
@@ -247,15 +253,16 @@
 
     <!-- testimonial -->
     <section
-        class="testimonial-section w-full flex flex-col justify-center items-center py-10 theme-bg-color2 my-20 theme-text-color2 px-14 md:px-18 lg:px-28 xl:px-36">
-        <div class="heading theme-text-color2 text-2xl text-center">We help founders, directors & marketing teams think
+        class="testimonial-section w-full flex flex-col justify-center items-center py-10 theme-bg-color my-20 theme-text-color2 px-14 md:px-18 lg:px-28 xl:px-36">
+        <div class="heading theme-text-color2 text-2xl text-center fade-in">We help founders, directors & marketing
+            teams think
             big
         </div>
         <div
             class="flex flex-col justify-center items-center mt-16 space-y-14 lg:flex-row lg:space-x-0 lg:space-y-0 lg:justify-around lg:items-start ">
 
             <div class="flex flex-col justify-center lg:items-start items-center lg:w-1/4">
-                <div class="heading text-5xl md:text-6xl  text-white">93%</div>
+                <div class="heading text-5xl md:text-6xl  text-white hollow-font">93%</div>
                 <div class="b-text md:text-lg">
                     of clients increase
                     their return on ad
@@ -263,14 +270,14 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center lg:items-start items-center lg:w-1/4">
-                <div class="heading text-5xl md:text-6xl text-white">150m</div>
+                <div class="heading text-5xl md:text-6xl text-white hollow-font">150m</div>
                 <div class="b-text md:text-lg">
                     views across our
                     video ad creatives
                 </div>
             </div>
             <div class="flex flex-col justify-center lg:items-start items-center lg:w-1/4">
-                <div class="heading text-5xl md:text-6xl text-white">£40m+
+                <div class="heading text-5xl md:text-6xl text-white hollow-font">£40m+
                 </div>
                 <div class="b-text md:text-lg">
                     in trackable revenue
@@ -279,6 +286,44 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <section class="footer-section bg-black text-white w-full">
+        <div class="w-3/4 mx-auto flex justify-center items-center flex-col py-10">
+            <div class="text-2xl heading text-white text-center">The only time you’ll want to be a sheep.</div>
+            <div
+                class="flex justify-center items-center flex-col my-10 md:flex-row flex-wrap md:items-start md:justify-between lg:flex-nowrap lg:w-full">
+                <div class="flex justify-center items-center md:items-start flex-col text-lg md:w-2/5 lg:w-auto">
+                    <div class="text-gray-400 my-5">Don’t be a stranger</div>
+                    <div>+92-30456487</div>
+                    <div>hello@thesocialshepherd.com
+                    </div>
+                    <div>7A Northumberland Buildings, Bath, BA1 2JE</div>
+                </div>
+                <div
+                    class="flex justify-center items-center md:items-end flex-col text-lg my-10 md:w-2/5 md:my-0 lg:w-auto">
+                    <div class="text-gray-400 my-5">Learn</div>
+                    <div class="cursor-pointer">About Us</div>
+                    <div class="cursor-pointer">Blog</div>
+                    <div class="cursor-pointer">Case Studies</div>
+                </div>
+                <div
+                    class="flex justify-center items-center space-x-10 md:w-full md:mt-16 lg:w-auto lg:flex-col lg:space-x-0 lg:space-y-6 lg:mt-0">
+                    <div><i class="fa-brands fa-facebook fa-2xl cursor-pointer"></i>
+                    </div>
+                    <div><i class="fa-brands fa-linkedin fa-2xl cursor-pointer"></i></div>
+                    <div><i class="fa-brands fa-twitter-square fa-2xl cursor-pointer"></i></div>
+                    <div><i class="fa-solid fa-comment fa-2xl cursor-pointer"></i></div>
+                </div>
+
+            </div>
+            <div class="text-center">© 2022 The Social Wizard.
+                <br> Privacy Policy
+                <br> Web Design KamakaziTech
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
