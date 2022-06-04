@@ -11,7 +11,8 @@ body {
   color: #000;
   line-height: 2.2 !important;
   width: 100vw !important;
-  overflow: hidden !important;
+  margin: 0px auto !important;
+  overflow-x: hidden !important;
 }
 .b-text {
   line-height: 2.2 !important;
