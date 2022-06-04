@@ -5,6 +5,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth !important;
+}
 body {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 400 !important;
@@ -113,6 +116,21 @@ body {
   font-family: "Londrina Outline", cursive !important;
 }
 /* testimonial ---end */
+
+/* Blog Page */
+/* blog section ---start */
+.blog-section,
+.after-nav {
+  margin-top: 16vh !important;
+}
+.blog-group:hover .read-more {
+  color: #65e2ca;
+}
+.blog-section > div:last-child,
+.singleblog-section > div {
+  width: 80%;
+}
+/* blog section ---end */
 
 /* transition ---start */
 
